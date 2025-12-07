@@ -1,46 +1,39 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
-
     public static void main(String[] args) {
         try {
             CountryRegistry registry = new CountryRegistry();
-            registry.loadFromFile("CountryCodes.csv", false);
-            
+            registry.loadFromJsonFile("AdjacentCountries.json");
+
             Scanner scanner = new Scanner(System.in);
-            
+
             while (true) {
-                System.out.print("\nEnter country code (or 'quit' to exit): ");
+                System.out.print("\nEnter country code (or 'quit'): ");
                 String input = scanner.nextLine().trim();
-                
-                if (input.equalsIgnoreCase("quit")) {
-                    break;
-                }
-                
-                processCountryCodeInput(input, registry);
+
+                if (input.equalsIgnoreCase("quit")) break;
+
+                printResult(input, registry);
             }
-            
+
             scanner.close();
-            
+
         } catch (Exception e) {
-            System.err.println("Error: " + e.getMessage());
             e.printStackTrace();
         }
     }
 
-    
-    private static void processCountryCodeInput(String input, CountryRegistry registry) {
-        if (!input.isEmpty()) {
+    private static void printResult(String code, CountryRegistry registry) {
+        String countryName = registry.getCountryName(code);
 
-            String countryName = registry.getCountryName(input);
-        
-            if (countryName != null) {
-                System.out.println("Country: " + countryName);
-            } else {
-                System.out.println("Country code '" + input + "' not found.");
-            }
+        if (countryName != null) {
+            System.out.println("Country: " + countryName);
+
+            List<String> adjacentCountries = registry.getAdjacentCountries(code);
+            System.out.println("Adjacent countries: " + adjacentCountries);
         } else {
-            System.out.println("Please enter a valid country code.");
+            System.out.println("Country code not found.");
         }
     }
 }

@@ -1,50 +1,29 @@
-import java.io.BufferedReader;
-import java.io.FileReader;
 import java.io.IOException;
-import java.util.HashMap;
-import java.util.Map;
+import java.nio.file.*;
+import java.util.*;
 
 public class CountryRegistry {
-    private Map<String, String> countryMap;
+    private Map<String, String> countryNames = new HashMap<>();
+    private Map<String, List<String>> adjacentCountries = new HashMap<>();
 
-    public CountryRegistry() {
-        countryMap = new HashMap<>();
-    }
+    public void loadFromJsonFile(String filePath) throws IOException {
+        String countryDataJson = Files.readString(Path.of(filePath));
 
-    public void loadFromFile(String filePath, boolean skipHeader) throws IOException {
-        BufferedReader reader = new BufferedReader(new FileReader(filePath));
-        String line;
+        List<JsonParser.CountryData> parsed = JsonParser.parse(countryDataJson);
 
-        while ((line = reader.readLine()) != null) {
-            line = line.trim();
-            if (line.isEmpty()) continue;
-
-            if (skipHeader) {
-                skipHeader = false;
-                continue;
-            }
-
-            parseCsvLine(line);
-        }
-
-        reader.close();
-    }
-
-    private void parseCsvLine(String line) {
-        String[] tokens = line.split(",", 2);
-        
-        if (tokens.length == 2) {
-            String countryCode = tokens[0].trim().toUpperCase();
-            String countryName = tokens[1].trim();
-
-            if (!countryCode.isEmpty() && !countryName.isEmpty()) {
-                countryMap.put(countryCode, countryName);
-            }
+        for (JsonParser.CountryData currentCountry : parsed) {
+            countryNames.put(currentCountry.code.toUpperCase(), currentCountry.name);
+            adjacentCountries.put(currentCountry.code.toUpperCase(), currentCountry.adjacentCountries);
         }
     }
 
-    public String getCountryName(String countryCode) {
-        if (countryCode == null) return null;
-        return countryMap.get(countryCode.toUpperCase());
+    public String getCountryName(String code) {
+        if (code == null) return null;
+        return countryNames.get(code.toUpperCase());
+    }
+
+    public List<String> getAdjacentCountries(String code) {
+        if (code == null) return null;
+        return adjacentCountries.get(code.toUpperCase());
     }
 }
