@@ -1,0 +1,327 @@
+[
+  {
+    "code": "US",
+    "country": "United States",
+    "adjacentCountries": ["Canada", "Mexico"]
+  },
+  {
+    "code": "CA",
+    "country": "Canada",
+    "adjacentCountries": ["United States"]
+  },
+  {
+    "code": "MX",
+    "country": "Mexico",
+    "adjacentCountries": ["United States"]
+  },
+  {
+    "code": "GB",
+    "country": "United Kingdom",
+    "adjacentCountries": []
+  },
+  {
+    "code": "AU",
+    "country": "Australia",
+    "adjacentCountries": []
+  },
+  {
+    "code": "NZ",
+    "country": "New Zealand",
+    "adjacentCountries": []
+  },
+  {
+    "code": "IN",
+    "country": "India",
+    "adjacentCountries": ["Pakistan", "China", "Nepal", "Bangladesh", "Myanmar", "Bhutan"]
+  },
+  {
+    "code": "CN",
+    "country": "China",
+    "adjacentCountries": ["North Korea", "Russian Federation", "Mongolia", "Kazakhstan", "Kyrgyzstan", "Tajikistan", "Afghanistan", "Pakistan", "India", "Nepal", "Bhutan", "Laos", "Vietnam", "Myanmar"]
+  },
+  {
+    "code": "JP",
+    "country": "Japan",
+    "adjacentCountries": []
+  },
+  {
+    "code": "KR",
+    "country": "Korea, Republic of",
+    "adjacentCountries": ["North Korea"]
+  },
+  {
+    "code": "SG",
+    "country": "Singapore",
+    "adjacentCountries": ["Malaysia"]
+  },
+  {
+    "code": "AE",
+    "country": "United Arab Emirates",
+    "adjacentCountries": ["Oman", "Saudi Arabia"]
+  },
+  {
+    "code": "SA",
+    "country": "Saudi Arabia",
+    "adjacentCountries": ["Jordan", "Iraq", "Kuwait", "Qatar", "United Arab Emirates", "Oman", "Yemen"]
+  },
+  {
+    "code": "QA",
+    "country": "Qatar",
+    "adjacentCountries": ["Saudi Arabia"]
+  },
+  {
+    "code": "KW",
+    "country": "Kuwait",
+    "adjacentCountries": ["Iraq", "Saudi Arabia"]
+  },
+  {
+    "code": "OM",
+    "country": "Oman",
+    "adjacentCountries": ["United Arab Emirates", "Saudi Arabia", "Yemen"]
+  },
+  {
+    "code": "BH",
+    "country": "Bahrain",
+    "adjacentCountries": []
+  },
+  {
+    "code": "DE",
+    "country": "Germany",
+    "adjacentCountries": ["Denmark", "Poland", "Czech Republic", "Austria", "Switzerland", "France", "Luxembourg", "Belgium", "Netherlands"]
+  },
+  {
+    "code": "FR",
+    "country": "France",
+    "adjacentCountries": ["Spain", "Belgium", "Luxembourg", "Germany", "Switzerland", "Italy", "Monaco", "Andorra"]
+  },
+  {
+    "code": "IT",
+    "country": "Italy",
+    "adjacentCountries": ["France", "Switzerland", "Austria", "Slovenia", "San Marino", "Vatican City"]
+  },
+  {
+    "code": "ES",
+    "country": "Spain",
+    "adjacentCountries": ["Portugal", "France", "Andorra"]
+  },
+  {
+    "code": "PT",
+    "country": "Portugal",
+    "adjacentCountries": ["Spain"]
+  },
+  {
+    "code": "NL",
+    "country": "Netherlands",
+    "adjacentCountries": ["Belgium", "Germany"]
+  },
+  {
+    "code": "BE",
+    "country": "Belgium",
+    "adjacentCountries": ["France", "Luxembourg", "Germany", "Netherlands"]
+  },
+  {
+    "code": "CH",
+    "country": "Switzerland",
+    "adjacentCountries": ["France", "Germany", "Austria", "Liechtenstein", "Italy"]
+  },
+  {
+    "code": "AT",
+    "country": "Austria",
+    "adjacentCountries": ["Germany", "Czech Republic", "Slovakia", "Hungary", "Slovenia", "Italy", "Switzerland", "Liechtenstein"]
+  },
+  {
+    "code": "SE",
+    "country": "Sweden",
+    "adjacentCountries": ["Norway", "Finland"]
+  },
+  {
+    "code": "NO",
+    "country": "Norway",
+    "adjacentCountries": ["Sweden", "Finland", "Russian Federation"]
+  },
+  {
+    "code": "DK",
+    "country": "Denmark",
+    "adjacentCountries": ["Germany"]
+  },
+  {
+    "code": "FI",
+    "country": "Finland",
+    "adjacentCountries": ["Sweden", "Norway", "Russian Federation"]
+  },
+  {
+    "code": "IE",
+    "country": "Ireland",
+    "adjacentCountries": ["United Kingdom"]
+  },
+  {
+    "code": "PL",
+    "country": "Poland",
+    "adjacentCountries": ["Germany", "Czech Republic", "Slovakia", "Ukraine", "Belarus", "Lithuania", "Russian Federation"]
+  },
+  {
+    "code": "CZ",
+    "country": "Czech Republic",
+    "adjacentCountries": ["Germany", "Poland", "Slovakia", "Austria"]
+  },
+  {
+    "code": "GR",
+    "country": "Greece",
+    "adjacentCountries": ["Albania", "North Macedonia", "Bulgaria", "Turkey"]
+  },
+  {
+    "code": "HU",
+    "country": "Hungary",
+    "adjacentCountries": ["Austria", "Slovakia", "Ukraine", "Romania", "Serbia", "Croatia", "Slovenia"]
+  },
+  {
+    "code": "BR",
+    "country": "Brazil",
+    "adjacentCountries": ["Uruguay", "Argentina", "Paraguay", "Bolivia", "Peru", "Colombia", "Venezuela", "Guyana", "Suriname", "French Guiana"]
+  },
+  {
+    "code": "AR",
+    "country": "Argentina",
+    "adjacentCountries": ["Chile", "Bolivia", "Paraguay", "Brazil", "Uruguay"]
+  },
+  {
+    "code": "CL",
+    "country": "Chile",
+    "adjacentCountries": ["Peru", "Bolivia", "Argentina"]
+  },
+  {
+    "code": "CO",
+    "country": "Colombia",
+    "adjacentCountries": ["Brazil", "Peru", "Ecuador", "Panama", "Venezuela"]
+  },
+  {
+    "code": "PE",
+    "country": "Peru",
+    "adjacentCountries": ["Ecuador", "Colombia", "Brazil", "Bolivia", "Chile"]
+  },
+  {
+    "code": "ZA",
+    "country": "South Africa",
+    "adjacentCountries": ["Namibia", "Botswana", "Zimbabwe", "Mozambique", "Eswatini", "Lesotho"]
+  },
+  {
+    "code": "EG",
+    "country": "Egypt",
+    "adjacentCountries": ["Libya", "Sudan", "Israel", "Palestine"]
+  },
+  {
+    "code": "NG",
+    "country": "Nigeria",
+    "adjacentCountries": ["Benin", "Niger", "Chad", "Cameroon"]
+  },
+  {
+    "code": "KE",
+    "country": "Kenya",
+    "adjacentCountries": ["Ethiopia", "Somalia", "South Sudan", "Uganda", "Tanzania"]
+  },
+  {
+    "code": "MA",
+    "country": "Morocco",
+    "adjacentCountries": ["Algeria", "Western Sahara", "Spain"]
+  },
+  {
+    "code": "RU",
+    "country": "Russian Federation",
+    "adjacentCountries": ["Norway", "Finland", "Estonia", "Latvia", "Lithuania", "Poland", "Belarus", "Ukraine", "Georgia", "Azerbaijan", "Kazakhstan", "China", "Mongolia", "North Korea"]
+  },
+  {
+    "code": "TR",
+    "country": "Turkey",
+    "adjacentCountries": ["Greece", "Bulgaria", "Georgia", "Armenia", "Azerbaijan", "Iran, Islamic Republic Of", "Iraq", "Syria"]
+  },
+  {
+    "code": "UA",
+    "country": "Ukraine",
+    "adjacentCountries": ["Russian Federation", "Belarus", "Poland", "Slovakia", "Hungary", "Romania", "Moldova"]
+  },
+  {
+    "code": "ID",
+    "country": "Indonesia",
+    "adjacentCountries": ["Malaysia", "Timor-Leste", "Papua New Guinea"]
+  },
+  {
+    "code": "MY",
+    "country": "Malaysia",
+    "adjacentCountries": ["Thailand", "Indonesia", "Brunei", "Singapore"]
+  },
+  {
+    "code": "TH",
+    "country": "Thailand",
+    "adjacentCountries": ["Myanmar", "Laos", "Cambodia", "Malaysia"]
+  },
+  {
+    "code": "PH",
+    "country": "Philippines",
+    "adjacentCountries": []
+  },
+  {
+    "code": "VN",
+    "country": "Vietnam",
+    "adjacentCountries": ["China", "Laos", "Cambodia"]
+  },
+  {
+    "code": "BD",
+    "country": "Bangladesh",
+    "adjacentCountries": ["India", "Myanmar"]
+  },
+  {
+    "code": "PK",
+    "country": "Pakistan",
+    "adjacentCountries": ["India", "Afghanistan", "Iran, Islamic Republic Of", "China"]
+  },
+  {
+    "code": "LK",
+    "country": "Sri Lanka",
+    "adjacentCountries": []
+  },
+  {
+    "code": "NP",
+    "country": "Nepal",
+    "adjacentCountries": ["China", "India"]
+  },
+  {
+    "code": "HK",
+    "country": "Hong Kong",
+    "adjacentCountries": ["China"]
+  },
+  {
+    "code": "TW",
+    "country": "Taiwan",
+    "adjacentCountries": []
+  },
+  {
+    "code": "IL",
+    "country": "Israel",
+    "adjacentCountries": ["Lebanon", "Syria", "Jordan", "Egypt", "Palestine"]
+  },
+  {
+    "code": "IR",
+    "country": "Iran, Islamic Republic Of",
+    "adjacentCountries": ["Turkey", "Iraq", "Afghanistan", "Pakistan", "Turkmenistan", "Azerbaijan", "Armenia"]
+  },
+  {
+    "code": "IQ",
+    "country": "Iraq",
+    "adjacentCountries": ["Turkey", "Syria", "Jordan", "Saudi Arabia", "Kuwait", "Iran, Islamic Republic Of"]
+  },
+  {
+    "code": "JO",
+    "country": "Jordan",
+    "adjacentCountries": ["Syria", "Iraq", "Saudi Arabia", "Israel", "Palestine"]
+  },
+  {
+    "code": "UY",
+    "country": "Uruguay",
+    "adjacentCountries": ["Brazil", "Argentina"]
+  },
+  {
+    "code": "VE",
+    "country": "Venezuela",
+    "adjacentCountries": ["Colombia", "Brazil", "Guyana"]
+  }
+]
